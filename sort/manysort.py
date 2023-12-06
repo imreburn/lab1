@@ -27,6 +27,11 @@ def selection1(nums: list) -> list:
 
 # Insertion Sort
 def insertion1(nums: list) -> list:
+    '''
+    InsertionSort(A[n])
+        InsertionSort(A[n-1])
+        Insert(A[n], A[n-1])
+    '''
     n = len(nums)
     for i in range(1, n):
         insert = nums[i]
